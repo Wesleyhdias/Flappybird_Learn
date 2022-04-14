@@ -26,7 +26,7 @@ for c in range(2):
 
 for c in range(3):
     ys = obj.pipeys()
-    X = c*225 + 400
+    x = c*225 + 400
     pipe = obj.Pipe(os.path.join(img_dir, 'pipe.png'), x, ys[0], 4)
     pipe1 = obj.Pipe(os.path.join(img_dir, 'pipe.png'), x, ys[1], 4, True)
     all_sprites.add(pipe)
