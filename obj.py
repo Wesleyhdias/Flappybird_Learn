@@ -33,7 +33,7 @@ class Pipe(py.sprite.Sprite):
         
         self.rotate = rotate
         self.dir_img = dir_img
-        self.x_img = x_img*225 + 400
+        self.x_img = x_img
         self.y_img = y_img
         self.speed = speed
         
